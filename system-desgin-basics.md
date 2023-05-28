@@ -5,18 +5,21 @@
 
 ## Scalability
 - Ablity of the system to handle load/large volume of requests
-  ### **vertical scaling**
+  ### **Vertical scaling**
   - adding multiple instace of the compute or storage
   - node downtime will be there
-  ### **horizontal scaling**
+  - there is a limit for scaling a node vertically
+  ### **Horizontal scaling**
   - adding more memeory or processing power to existing machine
   - No downtime
+  - No limit for adding resources
 ## Reliability
 - reliability is the probability a system will fail in a given period
 - A reliable distributed system achieves this through redundancy of both the software components and data.
 - reliability includes security of the system
 ## Availability 
 - availability is the time a system remains operational to perform its required function in a specific period.
+- If a system is reliable, it is available. However, if it is available, it is not necessarily reliable.
 ## Efficiency
 - Two standard measures of its efficiency are 
   -  **response time (or latency)** that denotes the delay to obtain the first item 
