@@ -7,8 +7,10 @@
 - Ablity of the system to handle load/large volume of requests
   ### **vertical scaling**
   - adding multiple instace of the compute or storage
+  - node downtime will be there
   ### **horizontal scaling**
   - adding more memeory or processing power to existing machine
+  - No downtime
 ## Reliability
 - reliability is the probability a system will fail in a given period
 - A reliable distributed system achieves this through redundancy of both the software components and data.
