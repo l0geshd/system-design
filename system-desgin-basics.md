@@ -5,9 +5,9 @@
 
 ## Scalability
 - Ablity of the system to handle load/large volume of requests
-  ### vertical scaling
+  ### **vertical scaling**
   - adding multiple instace of the compute or storage
-  ### horizonatal scaling
+  ### **horizontal scaling**
   - adding more memeory or processing power to existing machine
 ## Reliability
 - reliability is the probability a system will fail in a given period
