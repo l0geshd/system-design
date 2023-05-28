@@ -64,9 +64,30 @@
 # **Sharding or Data Partitioning**
 
 # **Indexes**
-- The goal of creating an index on a particular table in a database is to make it faster to search through the table and find the row or rows that we want.
+- The goal of creating an index on a particular table in a database is to make it **faster to search through the table** and find the row or rows that we want.
 
 # **Proxies**
+
+  Typically, proxies are used to **filter requests, log requests, or sometimes transform requests** (by adding/removing headers, encrypting/decrypting, or compressing a resource). Another advantage of a proxy server is that its cache can serve a lot of requests.
+
+![image](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F257642d6-9742-432b-9ca8-2a866dea04dd_1445x1536.jpeg)
+
+## Forward Proxy
+A forward proxy is a server that sits between user devices and the internet.
+
+A forward proxy is commonly used for: 
+- Protect clients
+- Avoid browsing restrictions
+- Block access to certain content
+
+## Reverse Proxy
+A reverse proxy is a server that accepts a request from the client, forwards the request to web servers, and returns the results to the client as if the proxy server had processed the request.
+
+A reverse proxy is good for:
+- Protect servers
+- Load balancing
+- Cache static contents
+- Encrypt and decrypt SSL communications
 
 # **Redundancy & Replication**
 
