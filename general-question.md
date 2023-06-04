@@ -11,3 +11,10 @@
 - Traffic estimates
 - Bandwidth estimates
 - Memory Estimated
+
+
+## How does base64 work?
+Base64 encoding converts every three bytes of data (three bytes is 3*8=24 bits) into four base64 characters.
+Each six-bit sequence is uniquely mapped to one of the 64 characters used:
+![image](https://github.com/l0geshd/system-design/assets/61483272/fe5833d6-4909-4bbe-917e-10b66959f308)
+
